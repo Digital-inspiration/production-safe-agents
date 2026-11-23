@@ -1,0 +1,32 @@
+{
+  "name": "production-safe-agents",
+  "version": "1.0.0",
+  "description": "Safe Agent Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Digital-inspiration@github.com/Digital-inspiration/production-safe-agents.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Digital-inspiration/production-safe-agents/issues"
+  },
+  "homepage": "https://github.com/Digital-inspiration/production-safe-agents#readme",
+  "private": true,
+  "workspaces": [
+    "packages/shared",
+    "packages/triage-agent",
+    "packages/refund-agent",
+    "packages/harness"
+  ],
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}
